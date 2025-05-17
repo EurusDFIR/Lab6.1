@@ -4,7 +4,7 @@
 
 ```powershell
 git clone https://github.com/EurusDFIR/Lab6.1.git
-cd Lab6.1.gitgit
+cd Lab6.1.git
 ```
 
 ## 2. Tạo môi trường ảo Python
