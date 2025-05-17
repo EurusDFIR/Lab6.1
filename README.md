@@ -1,5 +1,5 @@
-# Lab 6.1 - Hướng dẫn sử dụng và chạy project
-
+# Lab 6.1 Thầy Nguyễn Thế Bảo - Hướng dẫn sử dụng và chạy project
+## Sinh Viện thực hiện Lê Văn Hoàng - 2224802010279
 ## 1. Clone project từ GitHub
 
 ```powershell
