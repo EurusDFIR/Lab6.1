@@ -1,10 +1,10 @@
-# Lab 6.1 - Hướng dẫn sử dụng và chạy project
-
+# Lab 6.1 Thầy Nguyễn Thế Bảo - Hướng dẫn sử dụng và chạy project
+## Sinh Viên thực hiện Lê Văn Hoàng - 2224802010279
 ## 1. Clone project từ GitHub
 
 ```powershell
 git clone https://github.com/EurusDFIR/Lab6.1.git
-cd Lab6.1.gitgit
+cd Lab6.1.git
 ```
 
 ## 2. Tạo môi trường ảo Python
@@ -52,5 +52,4 @@ python 2224802010279.py
 
 ---
 
-**Tóm tắt:**
-Chỉ cần clone repo, tạo môi trường ảo, cài thư viện bằng `requirements.txt`, tạo database và chạy file python là xong!
+
