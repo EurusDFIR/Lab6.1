@@ -1,0 +1,43 @@
+$ py 2224802010279.py
+Sử dụng PostgreSQL database: 2224802010279 trên host localhost
+
+--- Câu 1: Tạo CSDL (bảng) và Nhập liệu ---
+MSSV: 2224802010279, Yeu cau nhap 5 dong moi bang. 
+Đã nhập 5 dòng vào bảng KHACHHANG.
+Đã nhập 5 dòng vào bảng DIENTHOAI.
+Đã nhập 5 dòng vào bảng DICHVU.
+Đã nhập 5 dòng vào bảng DANGKY .
+Đã tạo/kiểm tra các bảng và nhập liệu.
+
+--- Câu 2: Thực hiện các truy vấn ---
+
+--- a. Dịch vụ cho từng khách hàng cá nhân ---
+Khách hàng: Nguyễn Văn An, SĐT: 0901112221, Dịch vụ: funring
+Khách hàng: Nguyễn Văn An, SĐT: 0901112221, Dịch vụ: SMS
+Khách hàng: Trần Thị Bích Anh, SĐT: 0985556661, Dịch vụ: SMS
+
+--- b. Chi tiết số điện thoại đăng ký dịch vụ SMS ---
+SĐT: 0901112221, Khách hàng: Nguyễn Văn An, Dịch vụ: SMS
+SĐT: 0913334441, Khách hàng: Công ty TNHH XYZ, Dịch vụ: SMS
+SĐT: 0985556661, Khách hàng: Trần Thị Bích Anh, Dịch vụ: SMS
+
+--- c. Dịch vụ SMS cho khách hàng cá nhân hoặc doanh nghiệp ---
+Dịch vụ 'SMS' được sử dụng bởi các khách hàng sau (Cá nhân hoặc Doanh nghiệp):     
+- Khách hàng: Công ty TNHH XYZ, Loại: Doanh nghiệp, Dịch vụ: SMS
+- Khách hàng: Nguyễn Văn An, Loại: Cá nhân, Dịch vụ: SMS
+- Khách hàng: Trần Thị Bích Anh, Loại: Cá nhân, Dịch vụ: SMS
+
+--- d. Dịch vụ do khách hàng tên Anh hoặc An đăng ký ---
+Dịch vụ: SMS (Khách hàng: Trần Thị Bích Anh)
+Dịch vụ: SMS (Khách hàng: Nguyễn Văn An)
+Dịch vụ: funring (Khách hàng: Nguyễn Văn An)
+
+--- e. Dịch vụ do Doanh nghiệp ở Bình Dương đăng ký ---
+Dịch vụ: funring (Doanh nghiệp: Doanh nghiệp tư nhân Hoàng Long)
+Dịch vụ: SMS (Doanh nghiệp: Công ty TNHH XYZ)
+
+--- f. Khách hàng đăng ký cả funring và SMS ---
+Tên: Nguyễn Văn An, Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM, Loại: Cá nhân
+
+Hoàn thành Lab 6.1 với PostgreSQL.
+(venv)
