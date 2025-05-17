@@ -52,5 +52,4 @@ python 2224802010279.py
 
 ---
 
-**Tóm tắt:**
-Chỉ cần clone repo, tạo môi trường ảo, cài thư viện bằng `requirements.txt`, tạo database và chạy file python là xong!
+
